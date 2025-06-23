@@ -1,0 +1,52 @@
+body {
+  background-color: #d3d3d3;
+}
+
+.card img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.navbar-brand {
+  color: #C62828;
+}
+
+#titulo-categoria {
+  font-weight: 900;
+}
+
+
+.nav-link.dropdown-toggle {
+  color: #C62828 !important;
+}
+
+.dropdown-item {
+  color: #C62828 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #ffe5e5;
+  color: #C62828;
+}
+
+.card {
+  background-color: #d3d3d3; 
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #C62828;
+  border-color: #C62828;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #a71e1e;
+  border-color: #a71e1e;
+}
+
