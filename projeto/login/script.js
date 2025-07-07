@@ -14,9 +14,9 @@ formLogin.addEventListener('submit', async (e) => {
   if (usuario) {
     alert('Login realizado com sucesso!');
     if (usuario.doc.tipo === 'admin') {
-      window.location.href = 'admin-filmes.html';
+      window.location.href = '../../projeto/cadastroFilme/index.html';
     } else {
-      window.location.href = 'index.html';
+      window.location.href = '../../projeto/dashboard/index.html';
     }
   } else {
     mensagemErro.textContent = 'Email ou senha inválidos';

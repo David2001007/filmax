@@ -17,7 +17,7 @@ function carregarFilmes() {
           <div class="card-body">
             <h5 class="card-title">${filme.titulo}</h5>
             <p class="card-text">${filme.descricao.slice(0, 100)}...</p>
-            <a href="obra.html?id=${filme._id}" class="btn btn-primary">Ver mais</a>
+            <a href="../filme/index.html?id=${filme._id}" class="btn btn-primary">Ver mais</a>
           </div>
         </div>
       `;
@@ -44,7 +44,7 @@ function filtrarPorCategoria(categoria) {
           <div class="card-body">
             <h5 class="card-title">${filme.titulo}</h5>
             <p class="card-text">${filme.descricao.slice(0, 100)}...</p>
-            <a href="obra.html?id=${filme._id}" class="btn btn-primary">Ver mais</a>
+            <a href="../filme/index.html?id=${filme._id}" class="btn btn-primary">Ver mais</a>
           </div>
         </div>
       `;
